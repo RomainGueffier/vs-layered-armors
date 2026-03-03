@@ -20,7 +20,7 @@ jobs:
         run: |
           mkdir package
           cp modinfo.json package/
-          cp modinfo.png package/
+          cp modicon.png package/
           cp -r assets package/
           cd package
           zip -r ../layered-armors.zip .
