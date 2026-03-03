@@ -1,4 +1,4 @@
-# Mod Layered Armor
+# Vintage Story Mod Layered Armor
 
 ![icon](./modicon.png)
 
