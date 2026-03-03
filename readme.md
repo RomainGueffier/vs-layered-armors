@@ -1,6 +1,6 @@
 # Mod Layered Armor
 
-![icon](./modicon.jpg)
+![icon](./modicon.png)
 
 Real armors are made of layers! This mod adds recipes to deconstruct armor pieces into their components, allowing you to reuse materials and create new armors with different properties.
 
