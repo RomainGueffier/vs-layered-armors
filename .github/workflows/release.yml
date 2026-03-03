@@ -18,14 +18,14 @@ jobs:
 
       - name: Create zip archive
         run: |
-          zip -r layered-armors.zip . \
-            -x "*.git*" \
-            -x "README.md" \
-            -x ".github/*"
+          mkdir package
+          cp modinfo.json package/
+          cp modinfo.png package/
+          cp -r assets package/
+          cd package
+          zip -r ../layered-armors.zip .
 
       - name: Create Release and Upload Asset
         uses: softprops/action-gh-release@v2
         with:
           files: layered-armors.zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
