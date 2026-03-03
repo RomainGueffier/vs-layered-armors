@@ -1,0 +1,22 @@
+{
+  "ingredientPattern": "A",
+  "width": 1,
+  "height": 1,
+  "averageDurability": true,
+  "ingredients": {
+    "A": {
+      "type": "item",
+      "code": "game:armor-body-brigandine-*",
+      "name": "material",
+      "returnedStack": {
+        "type": "item",
+        "code": "game:metalplate-{material}",
+        "quantity": 7
+      }
+    }
+  },
+  "output": {
+    "type": "item",
+    "code": "game:armor-body-jerkin-leather"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ingredientPattern": "A",
+  "width": 1,
+  "height": 1,
+  "averageDurability": true,
+  "ingredients": {
+    "A": {
+      "type": "item",
+      "code": "game:armor-body-scale-*",
+      "name": "material",
+      "returnedStack": {
+        "type": "item",
+        "code": "game:metalscale-{material}",
+        "quantity": 6
+      }
+    }
+  },
+  "output": {
+    "type": "item",
+    "code": "game:armor-body-chain-{material}"
+  }
+}
