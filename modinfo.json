@@ -1,16 +1,11 @@
 {
     "type": "content",
-    "modid": "layered-armors",
+    "modid": "layeredarmors",
     "name": "Layered Armors",
     "authors": [
         "RustyMan"
     ],
     "description": "Real armors are made of layers! This mod adds recipes to deconstruct armor pieces into their components, allowing you to reuse materials and create new armors with different properties.",
-    "tags": [
-        "armor",
-        "layered",
-        "deconstruction"
-    ],
     "version": "1.0.0",
     "dependencies": {
         "game": "*"
